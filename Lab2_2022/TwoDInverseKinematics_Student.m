@@ -80,7 +80,7 @@ for i = 1:count
     y = point(2);
     q0 = qInitial';
     % STUDENT FUNCTION INCLUDED BELOW HERE
-    qSol = ik_student_solved(x,y,q0,L1,L2,true);
+    qSol = ik_student(x,y,q0,L1,L2,true);
     % Store the configuration
     qs(i,:) = qSol;
     % Start from prior solution
